@@ -11,9 +11,9 @@
       <h1>Dog API: Display Multiple Random Dog Images</h1>
       <p>Pick a number from 1-50 or don't pick anything and get 3 adorable dogs</p>
 
-      <form  class="js-search-form">
+       <form  class="js-search-form">
         <label for="query"></label>
-        <input required type="text" class="js-query" value="3"">
+        <input required type="number" class="js-query" value="3" min="3" max="50">
         <input class="js-submit" type="submit" value="Search" />
       </form>
 
